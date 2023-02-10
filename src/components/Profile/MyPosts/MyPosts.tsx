@@ -13,8 +13,8 @@ function MyPosts() {
 
                 </div>
                 <div className={s.posts}>
-<Post message="How are you?" />
-<Post message="It's my first post" />
+<Post message="How are you?" likesCount='0' />
+<Post message="It's my first post" likesCount='20'/>
                 </div>
             </div>
     );

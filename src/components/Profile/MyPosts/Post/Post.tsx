@@ -4,6 +4,7 @@ import {debuglog} from 'util';
 
 type MessageProps = {
     message: string;
+    likesCount: string;
 }
 function Post(props: MessageProps) {
     return (
@@ -12,7 +13,7 @@ function Post(props: MessageProps) {
                 src="https://st2.depositphotos.com/2872743/10119/i/600/depositphotos_101190820-stock-photo-cartoon-mustache-face-cute-emoticon.jpg"/>
             { props.message }
             <div>
-                <span>like</span>
+                <span>{props.likesCount}</span>
             </div>
         </div>
 
